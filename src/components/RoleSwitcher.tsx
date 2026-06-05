@@ -15,7 +15,14 @@ export default function RoleSwitcher({ currentRole, onChangeRole, streakCount, a
       <div className="flex items-center gap-3">
         {/* Minimalist Monogram Logo from theme */}
         <div className="w-8 h-8 rounded-lg bg-brand-gold flex items-center justify-center shrink-0 select-none">
-          <span className="text-brand-burgundy font-bold text-lg">&</span>
+          <svg viewBox="0 0 20 20" className="w-5 h-5" fill="none" strokeLinecap="round" strokeLinejoin="round">
+            {/* Leaf */}
+            <path d="M11 3 C14 3 17 6 17 10 C17 14 14 16 11 16 C8 10 11 3 11 3Z" fill="#863D4B"/>
+            <path d="M11 3 L10.2 16" stroke="#DDAC5B" strokeWidth="1" fill="none"/>
+            {/* Wind lines */}
+            <path d="M2 10 Q5 8 8 10" stroke="#863D4B" strokeWidth="1.6" fill="none"/>
+            <path d="M2 13 Q4.5 11.5 7 13" stroke="#863D4B" strokeWidth="1.2" fill="none" opacity="0.55"/>
+          </svg>
         </div>
         <span className="text-white font-semibold text-lg tracking-tight italic font-serif">Therapy & Beyond</span>
         
