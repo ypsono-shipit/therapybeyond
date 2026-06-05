@@ -1,0 +1,6 @@
+{
+  "name": "Therapy & Beyond",
+  "description": "Premium clinical continuity SaaS providing AI-powered patient check-ins, medical summaries, risk metrics, and clinician-patient coordination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
